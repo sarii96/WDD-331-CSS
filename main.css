@@ -5,12 +5,11 @@
     background-color:#6495ED ;
     height: 100%;
     padding: 0em;
-    margin: none;
     text-align: right;
-    size: 10px;
+    
 }
 main{
-    background-color: #deb887;
+    background-color:#FAEBD7;
     padding: 1em;  
     
     
@@ -43,8 +42,9 @@ li a{
 }
  h2{
     font-family: 'Lora', serif;
-    text-align: center;
-    padding: 0.5em;
+    text-align: left;
+    padding: 1em;
+
     }
 
 nav a:active {
@@ -88,7 +88,7 @@ p{
 
 }
 article{
-    background-color: #faebd7;
+    background-color: white;
     margin: 10px;
     padding-top: 1em;
     box-shadow: 3px 3px 0px 0px rgb(158, 151, 158);
@@ -101,7 +101,7 @@ article{
 body{
     margin:0;
     background-color: #6495ED;
-
+   font-family: Helvetica, Arial, sans-serif;
 }
 ul{
     padding-bottom: 1em;
@@ -130,7 +130,7 @@ header {
     padding: 0em;
     margin: 2em;
     text-align: right;
-    size: 10px;
+
 }
 li  {
     font-family: Arial, Helvetica, sans-serif;
@@ -150,11 +150,11 @@ body div{
     body {
         margin:0;
         background-color: #6495ED;
-        
+        font-family: Helvetica, Arial, sans-serif;
     }
     
 main{
-    background-color: #deb887;
+    background-color:#FAEBD7;
     padding: 1em;  
     
 }
@@ -183,7 +183,7 @@ h2{
     
 }
 article{
-    background-color: #faebd7;
+    background-color: white;
     margin: 50px;
     padding-top: 1em;
     box-shadow: 3px 3px 0px 0px rgb(158, 151, 158);
