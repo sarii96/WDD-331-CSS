@@ -1,18 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 350px){
 
  header {
@@ -38,7 +24,7 @@ h1 a{
     color:#faebd7;
     text-decoration: none;
     font-family: 'Lora', serif;
-    padding-right: 0.5em;
+    padding-right: 0.8em;
     
 }
 li  {
@@ -48,19 +34,19 @@ li  {
     margin-bottom: 1em;
     
 }
+hr{
+    margin: 1.5em;
+}
 li a{
-    color:#faebd7 ;
-    text-decoration: none;
-    margin: 1em;
+    
+    margin: 1.5em;
 }
  h2{
     font-family: 'Lora', serif;
     text-align: center;
     padding: 0.5em;
-    
-}
+    }
 
- 
 nav a:active {
 color:#DEB887;
 }
@@ -120,6 +106,137 @@ body{
 ul{
     padding-bottom: 1em;
 }
+
+h2 a:link{
+    color:black;
+    text-decoration: none ;
+}
+h2 a:visited {
+ color:black;
+ text-decoration:none;
+}
+h2 a:hover{
+color:#6495ED;
+text-decoration: underline;
+}
+h2 a:active{
+color:#DEB887;
+}
+}
+
+@media only screen and (min-width: 350px) {
+header {
+    background-color:#6495ED ;
+    padding: 0em;
+    margin: 2em;
+    text-align: right;
+    size: 10px;
+}
+li  {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+    hr{
+        margin: 0.5em;
+    }
+
+body div{
+    display: flex;
+    
+    
+}
+    body {
+        margin:0;
+        background-color: #6495ED;
+        
+    }
+    
+main{
+    background-color: #deb887;
+    padding: 1em;  
+    
+}
+
+
+h1 a{
+    color:#faebd7;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    padding-right: 0.5em;
+    
+}
+img{
+   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    
+}
+
+h2{
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 0.5em;
+    
+}
+article{
+    background-color: #faebd7;
+    margin: 50px;
+    padding-top: 1em;
+    box-shadow: 3px 3px 0px 0px rgb(158, 151, 158);
+}
+
+.post-content{
+    margin: 1em;
+}
+p{
+    text-align: left;
+    margin: 2em;
+   padding-bottom: 2em ;
+
+}
+.post-date{
+    color:gray;
+    padding-top: 1em;
+    margin: 2em;
+}
+
+
+nav a:active {
+    color:#DEB887;
+    }
+    
+    nav a:link {
+        color:#FAEBD7;
+        text-decoration: none;
+    }
+    nav a:visited { 
+        color:#FAEBD7;
+        text-decoration: none;
+    }
+    nav a:hover {
+    color:white;
+    text-decoration: underline;
+    }
+
+    p a:link{
+        color:#6495ED;
+        text-decoration: none;
+    }
+   p a:visited{
+       color:#6495ED;
+       text-decoration: none;
+   }
+   p a:active {
+       color: #DEB887;
+   }
+   p a.hover{
+    text-decoration: underline;
+   }
+   
 
 h2 a:link{
     color:black;
